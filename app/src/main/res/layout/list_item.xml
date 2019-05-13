@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/product_background_card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="rtl"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/activity_vertical_half_margin"
+        android:gravity="center"
+        android:layoutDirection="inherit">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="id"
+            android:textColor="@color/main_menu_user_title_color"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:id="@+id/column_id_item"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="word"
+            android:textColor="@color/main_menu_user_title_color"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:id="@+id/column_word_item"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="definition"
+            android:textColor="@color/main_menu_user_title_color"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:id="@+id/column_definition_item"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

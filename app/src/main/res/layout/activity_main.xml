@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@+id/result_toaster"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#FF0000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/edittext_word"
+            android:layout_width="match_parent"
+            android:inputType="textVisiblePassword"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="word"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <EditText
+            android:id="@+id/edittext_definition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="definition"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/add_btn"
+                android:text="ADD"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:text="DELETE"
+                android:background="@android:color/holo_red_dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/update_btn"
+                android:text="UPDATE"
+                android:background="@android:color/holo_green_dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/viewAll_btn"
+                android:text="VIEWALL"
+                android:background="@android:color/holo_orange_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/quiz_btn"
+        android:text="Quiz"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <EditText
+                android:id="@+id/search_edittext"
+                android:inputType="textVisiblePassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="search_word"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <Button
+                android:id="@+id/search_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SEARCH"
+                android:background="@android:color/holo_purple"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@+id/answer_textview"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
